@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cash App Withdrawal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 30px;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .cashapp-logo {
+      width: 50px;
+      margin-bottom: 15px;
+    }
+
+    .success {
+      font-size: 26px;
+      color: #28a745;
+      margin-bottom: 10px;
+    }
+
+    .amount {
+      font-size: 22px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    .loading-text {
+      margin-top: 20px;
+      color: #333;
+      font-size: 16px;
+    }
+
+    .spinner {
+      margin: 20px auto;
+      width: 50px;
+      height: 50px;
+      border: 6px solid #eee;
+      border-top: 6px solid #28a745;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .footer-note {
+      font-size: 14px;
+      color: #888;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png.jpeg" class="cashapp-logo" alt="Cash App Logo" />
+    <div class="success">✅ Withdrawal Confirmed</div>
+    <div class="amount">$30,000 is will be available on your Cash App balance immediately unlock fee proccess completed </div>
+    <div class="loading-text">Processing Payment... Please wait</div>
+    <div class="spinner"></div>
+    <div class="footer-note">Your funds will reflect shotly. Do not close this page.</div>
+  </div>
+</body>
+</html>
